@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>$(ColoredConsole)</PackageId>
+    <Title>ColoredConsole</Title>
+    <Authors>$(Mohammad Hossein Jafarzadeh)</Authors>
+    <Description>🎨 Text Color Console Package
+
+Tired of plain Console.WriteLine outputs?
+With this lightweight package, you can easily print text in 16 different colors with just a single command.
+
+✅ Simple
+✅ Lightweight
+✅ Practical
+
+🚀 Usage
+
+Instead of writing:
+Console.Write("hello world");
+
+Just write:
+Text.Green("hello world");
+
+It works just like Console.WriteLine();, meaning you can pass any variable type, and it also supports various formatting options.
+
+🎨 Available Colors
+
+Red
+
+Green
+
+Yellow
+
+Blue
+
+Cyan
+
+White
+
+Black
+
+Gray
+
+Magenta
+
+DarkRed
+
+DarkYellow
+
+DarkBlue
+
+DarkGray
+
+DarkGreen
+
+DarkCyan
+
+DarkMagenta
+
+⚡ A simple but powerful package for colorful console applications!</Description>
+    <PackageIcon>ColoredConsole.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\..\..\Downloads\ColoredConsole.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
